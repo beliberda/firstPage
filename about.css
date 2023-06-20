@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Kablammo&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.link {
+  transition: 10s;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgba(233, 233, 233, 0.874);
+}
+header {
+  background-color: black;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.logo {
+  height: 100%;
+}
+.link:hover {
+  font-size: 25px;
+}
+.container {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.main {
+  margin-top: 50px;
+}
+.text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 140%;
+  border: 10px dashed rgb(255, 0, 0);
+  font-family: "Kablammo", cursive;
+}
+html {
+  background-color: rgb(168, 255, 255);
+}

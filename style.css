@@ -1,0 +1,31 @@
+h1 {
+  font-size: 44px;
+  color: rgb(253, 11, 11);
+}
+img {
+  width: 100%;
+  border-radius: 50%;
+}
+p {
+  width: 100%;
+  text-align: center;
+}
+.title-green {
+  color: rgb(65, 189, 71);
+}
+.card {
+  width: 300px;
+  background-color: rgb(154, 195, 182);
+  padding: 30px;
+  border-radius: 10px;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+.video {
+  width: 100%;
+  border-radius: 15px;
+}
